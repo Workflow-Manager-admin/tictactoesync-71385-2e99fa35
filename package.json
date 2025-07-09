@@ -1,0 +1,13 @@
+{
+  "name": "tic-tac-toe-project-root",
+  "private": true,
+  "workspaces": [
+    "tic_tac_toe_frontend"
+  ],
+  "description": "Project root for Tic Tac Toe with a React frontend and backend",
+  "scripts": {
+    "frontend:start": "cd tic_tac_toe_frontend && npm start",
+    "frontend:build": "cd tic_tac_toe_frontend && npm run build",
+    "frontend:test": "cd tic_tac_toe_frontend && npm test"
+  }
+}
